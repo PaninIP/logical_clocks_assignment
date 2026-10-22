@@ -6,3 +6,6 @@ dependencies = [
     "matplotlib>=3.8",
     "pytest>=8.0",
 ]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
